@@ -1,0 +1,29 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.env
+
+# Editor / IDE (VS Code)
+.vscode/
+
+# IF YOU WANT TO keep the generated files KEEP THIS commented
+# Kokoro TTS / Audio Output
+#*.wav
+#*.mp3
+#*.flac
+
+# AI Models & Weights (To avoid committing large files)
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.bin
+
+# Logs and OS files
+*.log
+Thumbs.db
+.DS_Store
