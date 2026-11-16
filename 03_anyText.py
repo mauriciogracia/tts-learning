@@ -10,7 +10,7 @@ if len(sys.argv) < 2:
 
 #trying to fix the first word not being pronunced adding ... does not work either 
 #text_to_synthesize = sys.argv[1]
-text_to_synthesize = "... " + sys.argv[1]
+text_to_synthesize = "; " + sys.argv[1]
 
 timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 output_filename = f"output_{timestamp}.wav"
