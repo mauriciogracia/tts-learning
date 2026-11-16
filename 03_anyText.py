@@ -20,7 +20,7 @@ with KokoroSynthesizer(config) as synthesizer:
     audio = synthesizer.synthesize_text(
         text_to_synthesize,
         language="en-us",
-        voice="am_liam"
+        voice="af_heart"
     )
     audio.save_wav(output_filename)
     print(f"Audio guardado en {output_filename}")
